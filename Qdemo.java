@@ -1,7 +1,7 @@
 import java.util.*;
 class Queue {
-	char q[];
-	int putloc,getloc;   //indexes to access location in array
+	private char q[];
+	private int putloc,getloc;   //indexes to access location in array
 	
 	Queue(int size) {           //constructor
 		q=new char[size];
